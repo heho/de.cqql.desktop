@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>de.cqql.desktop test</title>
+		<script type="text/javascript">
+			var djConfig = {
+				parseOnLoad: false,
+				isDebug: true,
+				modulePaths: {
+					'de.cqql.desktop': '/src/de/cqql/desktop',
+					'dijit': '/lib/dijit'
+				}
+			};
+		</script>
+		<script type="text/javascript" src="/lib/dojo/dojo.js"></script>
+		<script type="text/javascript">
+			dojo.require('de.cqql.desktop.Desktop');
+			
+			dojo.require('dijit.form.Button');
+			
+			dojo.addOnLoad(function () {
+				var desktop = new de.cqql.desktop.Desktop(dojo.body());
+				desktop.run();
+				var window = desktop.getWindowManager().createWindow();
+				var window2 = desktop.getWindowManager().createWindow();
+				
+				var button = new dijit.form.Button({label: 'cl1ck'});
+				button.placeAt(window.contentNode);
+				
+				window2.minimize();
+				window.minimize();
+			});
+		</script>
+		<link rel="stylesheet" type="text/css" href="/lib/dijit/themes/tundra/tundra.css" />
+	</head>
+	<body>
+		
+	</body>
+</html>

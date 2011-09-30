@@ -1,3 +1,6 @@
 [submodule "lib/dojo"]
 	path = lib/dojo
 	url = git@github.com:dojo/dojo.git
+[submodule "lib/dijit"]
+	path = lib/dijit
+	url = git@github.com:dojo/dijit.git
