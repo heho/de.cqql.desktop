@@ -6,22 +6,42 @@ dojo.require('de.cqql.desktop.WindowBar');
 dojo.require('de.cqql.desktop.menu.AppMenu');
 
 /**
+ * The desktop
+ *
  * @class
  * @name de.cqql.desktop.Desktop
  */
 dojo.declare('de.cqql.desktop.Desktop', null, {
 	/**
-	 * The desktop
-	 *
 	 * @lends de.cqql.desktop.Desktop
 	 */
 	
+	/**
+	 * App menu
+	 *
+	 * @type de.cqql.desktop.menu.AppMenu
+	 */
 	_appMenu: null,
 	
+	/**
+	 * Window manager
+	 *
+	 * @type de.cqql.desktop.WindowManager
+	 */
 	_windowManager: null,
 	
+	/**
+	 * Root node
+	 *
+	 * @type DomNode
+	 */
 	_rootNode: null,
 	
+	/**
+	 * Window bar
+	 *
+	 * @type de.cqql.desktop.WindowBar
+	 */
 	_windowBar: null,
 	
 	/**
