@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="de.cqql.desktop" default="build" basedir=".">
+	<description>A desktop and window manager written in Javascript</description>
+	<target name="clear" description="Deleting files and folders from previous builds">
+		<delete dir="docs" />
+		<delete dir="build" />
+		<delete dir="logs" />
+	</target>
+	<target name="setup" depends="clear" description="">
+		<mkdir dir="docs" />
+		<mkdir dir="build" />
+		<mkdir dir="logs" />
+	</target>
+	<target name="docs" depends="setup" description="Building the docs">
+		<touch file="logs/jsdoctoolkit.log" />
+		<exec executable="java">
+			<arg line="-jar tools/jsdoc-toolkit/jsrun.jar" />
+			<arg line="tools/jsdoc-toolkit/app/run.js" />
+			<arg line="-c=jsdoctoolkit.cfg.js" />
+		</exec>
+	</target>
+	<target name="build" depends="setup">
+		
+	</target>
+</project>

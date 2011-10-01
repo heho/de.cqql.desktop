@@ -15,5 +15,8 @@
 	p: true,
 	
 	// template to use
-	t: 'tools/jsdoc-toolkit/templates/jsdoc'
+	t: 'tools/jsdoc-toolkit/templates/jsdoc',
+	
+	// file where output shall go
+	o: 'logs/jsdoctoolkit.log'
 };
