@@ -2,9 +2,20 @@ dojo.provide('de.cqql.desktop.util.ObjectMap');
 
 dojo.require('de.cqql.desktop.util.KeyNotFoundException');
 
+/**
+ * @class
+ * @name de.cqql.desktop.util.ObjectMap
+ */
 dojo.declare('de.cqql.desktop.util.ObjectMap', null, {
+	/**
+	 * @lends de.cqql.desktop.util.ObjectMap
+	 */
+	
 	_keyValuePairs: null,
 	
+	/**
+	 * @constructs
+	 */
 	constructor: function ()
 	{
 		this._keyValuePairs = [];

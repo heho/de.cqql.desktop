@@ -4,7 +4,15 @@ dojo.require('de.cqql.desktop.windows.Window');
 
 dojo.require('dijit.layout.ContentPane');
 
+/**
+ * @class
+ * @name de.cqql.desktop.WindowManager
+ */
 dojo.declare('de.cqql.desktop.WindowManager', null, {
+	/**
+	 * @lends de.cqql.desktop.WindowManager
+	 */
+	
 	_rootNode: null,
 	
 	_windowPane: null,

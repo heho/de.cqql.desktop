@@ -5,7 +5,15 @@ dojo.require('dojo.cache');
 dojo.require('dijit._Templated');
 dojo.require('dijit.layout.ContentPane');
 
+/**
+ * @class
+ * @name de.cqql.desktop.windows.Window
+ */
 dojo.declare('de.cqql.desktop.windows.Window', [dijit.layout.ContentPane, dijit._Templated], {
+	/**
+	 * @lends de.cqql.desktop.windows.Window
+	 */
+	
 	_windowManager: null,
 	
 	templateString: dojo.cache('de.cqql.desktop.windows', 'template.html'),
@@ -14,6 +22,9 @@ dojo.declare('de.cqql.desktop.windows.Window', [dijit.layout.ContentPane, dijit.
 	
 	_title: '',
 	
+	/**
+	 * @constructs
+	 */
 	constructor: function (args, rootNode)
 	{
 		this._eventListeners = [];
