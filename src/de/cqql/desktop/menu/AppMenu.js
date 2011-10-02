@@ -19,7 +19,7 @@ dojo.declare('de.cqql.desktop.menu.AppMenu', null, {
 	_menuItems: null,
 	
 	/**
-	 * @constructs
+	 * 
 	 */
 	constructor: function ()
 	{

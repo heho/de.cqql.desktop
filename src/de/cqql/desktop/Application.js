@@ -3,7 +3,7 @@ dojo.provide('de.cqql.desktop.Application');
 /**
  * An application
  * 
- * This method is an interface for applications. You have to extend it to build
+ * This class is an interface for applications. You have to extend it to build
  * your own ones.
  *
  * @class
