@@ -13,3 +13,6 @@
 [submodule "lib/requirejs"]
 	path = lib/requirejs
 	url = git@github.com:jrburke/requirejs.git
+[submodule "lib/r.js"]
+	path = lib/r.js
+	url = git@github.com:jrburke/r.js.git
