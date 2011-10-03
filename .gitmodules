@@ -10,3 +10,6 @@
 [submodule "tools/nodeunit"]
 	path = tools/nodeunit
 	url = git@github.com:caolan/nodeunit.git
+[submodule "lib/requirejs"]
+	path = lib/requirejs
+	url = git@github.com:jrburke/requirejs.git
