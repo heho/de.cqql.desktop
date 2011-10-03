@@ -7,3 +7,6 @@
 [submodule "lib/dojo-util"]
 	path = lib/dojo-util
 	url = git@github.com:dojo/util.git
+[submodule "tools/nodeunit"]
+	path = tools/nodeunit
+	url = git@github.com:caolan/nodeunit.git
