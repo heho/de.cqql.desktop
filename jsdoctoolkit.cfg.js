@@ -1,6 +1,6 @@
 {
 	// files and folders to document
-	_: ['src/'],
+	_: ['lib/'],
 	
 	// number of subdirectories to scan for files
 	r: 10,
@@ -9,7 +9,7 @@
 	a: true,
 	
 	// output folder
-	d: 'docs',
+	d: 'doc',
 	
 	// document private functions
 	p: true,
