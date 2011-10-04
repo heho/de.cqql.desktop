@@ -1,15 +1,13 @@
+[submodule "tools/nodeunit"]
+	path = tools/nodeunit
+	url = git@github.com:caolan/nodeunit.git
+
 [submodule "deps/dojo"]
 	path = deps/dojo
 	url = git@github.com:dojo/dojo.git
 [submodule "deps/dijit"]
 	path = deps/dijit
 	url = git@github.com:dojo/dijit.git
-[submodule "deps/dojo-util"]
-	path = deps/dojo-util
-	url = git@github.com:dojo/util.git
-[submodule "tools/nodeunit"]
-	path = tools/nodeunit
-	url = git@github.com:caolan/nodeunit.git
 [submodule "deps/requirejs"]
 	path = deps/requirejs
 	url = git@github.com:jrburke/requirejs.git
