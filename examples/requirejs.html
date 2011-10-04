@@ -3,24 +3,24 @@
 	<head>
 		<title>de.cqql.desktop requirejs test</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<script type="text/javascript" src="/lib/requirejs/require.js"></script>
+		<script type="text/javascript" src="/deps/requirejs/require.js"></script>
 		<script type="text/javascript">
 			require.ready = function (onLoad) {};
 			
 			require.config({
-				baseUrl: '/lib/requirejs',
+				baseUrl: '/deps/requirejs',
 				paths: {
 					'de/cqql/desktop': '/src/de/cqql/desktop'
 				},
 				packages: [
 					{
 						name: 'dojo',
-						location: '/lib/dojo',
+						location: '/deps/dojo',
 						main: 'lib/main-browser'
 					},
 					{
 						name: 'dijit',
-						location: '/lib/dijit',
+						location: '/deps/dijit',
 						main: 'lib/main'
 					}
 				]
