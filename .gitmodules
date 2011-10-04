@@ -1,18 +1,16 @@
-[submodule "lib/dojo"]
-	path = lib/dojo
-	url = git@github.com:dojo/dojo.git
-[submodule "lib/dijit"]
-	path = lib/dijit
-	url = git@github.com:dojo/dijit.git
-[submodule "lib/dojo-util"]
-	path = lib/dojo-util
-	url = git@github.com:dojo/util.git
 [submodule "tools/nodeunit"]
 	path = tools/nodeunit
 	url = git@github.com:caolan/nodeunit.git
-[submodule "lib/requirejs"]
-	path = lib/requirejs
+
+[submodule "deps/dojo"]
+	path = deps/dojo
+	url = git@github.com:dojo/dojo.git
+[submodule "deps/dijit"]
+	path = deps/dijit
+	url = git@github.com:dojo/dijit.git
+[submodule "deps/requirejs"]
+	path = deps/requirejs
 	url = git@github.com:jrburke/requirejs.git
-[submodule "lib/r.js"]
-	path = lib/r.js
+[submodule "deps/r.js"]
+	path = deps/r.js
 	url = git@github.com:jrburke/r.js.git
