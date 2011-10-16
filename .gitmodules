@@ -4,7 +4,4 @@
 [submodule "deps/dijit"]
 	path = deps/dijit
 	url = git@github.com:dojo/dijit.git
-[submodule "deps/requirejs"]
-	path = deps/requirejs
-	url = git@github.com:jrburke/requirejs.git
 
