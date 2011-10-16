@@ -16,7 +16,7 @@
 		<exec executable="java">
 			<arg line="-jar tools/jsdoc-toolkit/jsrun.jar" />
 			<arg line="tools/jsdoc-toolkit/app/run.js" />
-			<arg line="-c=jsdoctoolkit.cfg.js" />
+			<arg line="-c=jsdoctoolkit.cfg.json" />
 		</exec>
 	</target>
 	<target name="build" depends="setup">
