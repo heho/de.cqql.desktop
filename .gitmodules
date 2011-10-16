@@ -7,6 +7,4 @@
 [submodule "deps/requirejs"]
 	path = deps/requirejs
 	url = git@github.com:jrburke/requirejs.git
-[submodule "tools/r.js"]
-	path = tools/r.js
-	url = git@github.com:jrburke/r.js.git
+
