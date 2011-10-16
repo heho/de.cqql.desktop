@@ -1,5 +1,5 @@
 require([
-	'dojo',
+	'dojo/_base/kernel',
 	'de/cqql/desktop/Desktop'
 ],
 function (dojo, Desktop) {
