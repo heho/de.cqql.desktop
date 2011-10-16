@@ -19,12 +19,7 @@
 			<arg line="-c=jsdoctoolkit.cfg.js" />
 		</exec>
 	</target>
-	<target name="buildR.js" description="">
-		<exec executable="node" dir="tools/r.js">
-			<arg line="dist.js" />
-		</exec>
-	</target>
-	<target name="build" depends="setup, buildR.js">
+	<target name="build" depends="setup">
 		<exec executable="node">
 			<arg line="tools/r.js/r.js" />
 			<arg line="-o default.build.js" />
