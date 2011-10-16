@@ -5,3 +5,6 @@
 	path = deps/dijit
 	url = git@github.com:dojo/dijit.git
 
+[submodule "tools/dojo-util"]
+	path = tools/dojo-util
+	url = https://github.com/dojo/util.git
