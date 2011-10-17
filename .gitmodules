@@ -1,10 +1,10 @@
-[submodule "deps/dojo"]
-	path = deps/dojo
-	url = git@github.com:dojo/dojo.git
-[submodule "deps/dijit"]
-	path = deps/dijit
-	url = git@github.com:dojo/dijit.git
 
-[submodule "tools/dojo-util"]
-	path = tools/dojo-util
+[submodule "deps/dojo/dojo"]
+	path = deps/dojo/dojo
+	url = https://github.com/dojo/dojo.git
+[submodule "deps/dojo/dijit"]
+	path = deps/dojo/dijit
+	url = https://github.com/dojo/dijit.git
+[submodule "deps/dojo/util"]
+	path = deps/dojo/util
 	url = https://github.com/dojo/util.git
