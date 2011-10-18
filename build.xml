@@ -22,7 +22,7 @@
 	<target name="build" depends="setup">
 		<exec executable="node">
 			<arg line="tools/r.js/r.js" />
-			<arg line="-o default.build.js" />
+			<arg line="-o default.build.json" />
 		</exec>
 	</target>
 </project>
