@@ -1,8 +1,11 @@
 {
 	"name": "de.cqql.desktop",
-	"description": "A desktop and window manager for your browser",
 	"version": "0.1.0alpha",
+	"description": "A desktop and window manager for your browser",
 	"keywords": ["desktop", "window"],
+	"directories": {
+		"lib": "./lib"
+	},
 	"maintainers": [
 		{
 			"name": "CQQL",
@@ -31,7 +34,7 @@
 		}
 	],
 	"dependencies": {
-		"dojo": "1.6.1",
-		"dijit": "1.6.1"
+		"dojo": "1.7.0",
+		"dijit": "1.7.0"
 	}
 }
