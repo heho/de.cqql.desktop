@@ -1,4 +1,4 @@
-({
+{
 	appDir: "lib",
 	baseUrl: "./",
 	dir: "build",
@@ -14,4 +14,4 @@
 			main: 'lib/main'
 		}
 	]
-})
+}
