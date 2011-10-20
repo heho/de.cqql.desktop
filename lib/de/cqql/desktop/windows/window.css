@@ -4,6 +4,8 @@
 	border: 1px solid #d3d3d3;
 	-webkit-box-shadow: 0 5px 10px #adadad;
 	padding: 0;
+	min-width: 100px;
+	position: absolute;
 }
 
 .desktopManagerWindowTitleBar {
@@ -60,7 +62,7 @@
 	background-position: -45px 0;
 	position: absolute;
 	vertical-align: middle;
-	right: 21;
+	right: 21px;
 	top: 4px;
 	height: 15px;
 	width: 15px;
@@ -79,15 +81,15 @@
 	background-image: url("images/spriteRoundedIconsSmall.gif");
 }
 
-.desktopManagerWindowMinimiseIconHover {
-	background-position: -15px -15px;
+.desktopManagerWindowMinimiseIcon:hover {
+	background-position: -15px -30px;
 }
 
-.desktopManagerWindowMaximiseIconHover {
-	background-position: -45px -15px;
+.desktopManagerWindowMaximiseIcon:hover {
+	background-position: -45px -30px;
 }
 
-.desktopManagerWindowCloseIconHover {
-	background-position: -60px -15px;
+.desktopManagerWindowCloseIcon:hover {
+	background-position: -60px -30px;
 }
 

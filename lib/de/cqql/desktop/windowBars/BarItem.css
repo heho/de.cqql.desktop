@@ -1,1 +1,7 @@
-
+.destkopManagerBarItem
+{
+	border:1px solid #dedede;
+	border-bottom:1px solid #dedede;
+	padding: 0.1em 0.2em 0.2em 0.2em;
+	background: #fff url("images/buttonEnabled.png") repeat-x top left;
+}

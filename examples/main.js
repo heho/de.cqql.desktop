@@ -7,4 +7,5 @@ function (dojo, Desktop) {
 	desktop.run();
 	
 	var window = desktop.getWindowManager().createWindow();
+	window.setTitle("test");
 });
