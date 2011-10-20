@@ -20,12 +20,12 @@
 	position:absolute;
 }
 
-.minimiseText {
+.minimizeText {
 	display:none;
 	position:absolute;
 }
 
-.maximiseText {
+.maximizeText {
 	display:none;
 	position:absolute;
 }
@@ -45,7 +45,7 @@
 
 }
 
-.desktopManagerWindowMinimiseIcon {
+.desktopManagerWindowMinimizeIcon {
 	background-repeat: no-repeat;
 	background-position: -15px 0;
 	position: absolute;
@@ -57,7 +57,7 @@
 	background-image: url("images/spriteRoundedIconsSmall.gif");
 }
 
-.desktopManagerWindowMaximiseIcon {
+.desktopManagerWindowMaximizeIcon {
 	background-repeat: no-repeat;
 	background-position: -45px 0;
 	position: absolute;
@@ -81,11 +81,11 @@
 	background-image: url("images/spriteRoundedIconsSmall.gif");
 }
 
-.desktopManagerWindowMinimiseIcon:hover {
+.desktopManagerWindowMinimizeIcon:hover {
 	background-position: -15px -30px;
 }
 
-.desktopManagerWindowMaximiseIcon:hover {
+.desktopManagerWindowMaximizeIcon:hover {
 	background-position: -45px -30px;
 }
 
