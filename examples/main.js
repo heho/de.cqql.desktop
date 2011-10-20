@@ -5,6 +5,9 @@ require([
 ],
 function (dojo, Desktop, TestApp) {
 	var desktop = new Desktop(dojo.body());
+	
+	desktop.getConfig().setBasePath('/examples');
+	
 	desktop.run();
 	
 	var window = desktop.getWindowManager().createWindow();
