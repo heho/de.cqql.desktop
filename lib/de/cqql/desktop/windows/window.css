@@ -1,0 +1,95 @@
+.desktopManagerWindow
+{
+	background: #eee;
+	border: 1px solid #d3d3d3;
+	-webkit-box-shadow: 0 5px 10px #adadad;
+	padding: 0;
+	min-width: 100px;
+	position: absolute;
+}
+
+.desktopManagerWindowTitleBar {
+	background: #fafafa url("images/titleBar.png") repeat-x top left;
+	padding: 5px 6px 3px 6px;
+	outline:0; 
+	min-width: 90px;
+}
+
+.closeText {
+	display:none;
+	position:absolute;
+}
+
+.minimizeText {
+	display:none;
+	position:absolute;
+}
+
+.maximizeText {
+	display:none;
+	position:absolute;
+}
+
+.desktopManagerWindowTitle {
+
+	font-size: 0.9em;
+	color: #243C5F;
+	font-weight: bold;
+	padding: 0 4px;
+}
+
+.desktopManagerWindowContent {
+	background: #ffffff;
+	border-top: 1px solid #d3d3d3;
+	padding:10px;
+
+}
+
+.desktopManagerWindowMinimizeIcon {
+	background-repeat: no-repeat;
+	background-position: -15px 0;
+	position: absolute;
+	vertical-align: middle;
+	right: 36px;
+	top: 4px;
+	height: 15px;
+	width: 15px;
+	background-image: url("images/spriteRoundedIconsSmall.gif");
+}
+
+.desktopManagerWindowMaximizeIcon {
+	background-repeat: no-repeat;
+	background-position: -45px 0;
+	position: absolute;
+	vertical-align: middle;
+	right: 21px;
+	top: 4px;
+	height: 15px;
+	width: 15px;
+	background-image: url("images/spriteRoundedIconsSmall.gif");
+}
+
+.desktopManagerWindowCloseIcon {
+	background-repeat: no-repeat;
+	background-position: -60px 0;
+	position: absolute;
+	vertical-align: middle;
+	top: 4px;
+	right: 6px;
+	height: 15px;
+	width: 15px;
+	background-image: url("images/spriteRoundedIconsSmall.gif");
+}
+
+.desktopManagerWindowMinimizeIcon:hover {
+	background-position: -15px -30px;
+}
+
+.desktopManagerWindowMaximizeIcon:hover {
+	background-position: -45px -30px;
+}
+
+.desktopManagerWindowCloseIcon:hover {
+	background-position: -60px -30px;
+}
+

@@ -11,6 +11,7 @@ function (dojo, Desktop, TestApp) {
 	desktop.run();
 	
 	var window = desktop.getWindowManager().createWindow();
+	window.setTitle("test");
 	
 	var app = new TestApp();
 	
