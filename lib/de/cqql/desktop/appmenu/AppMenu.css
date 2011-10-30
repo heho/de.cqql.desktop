@@ -1,0 +1,10 @@
+.destkopManagerAppMenu
+{
+	position: absolute;
+	top: 4px;
+	bottom: 4px;
+	left: 2px;
+	width: 135px;
+	background: #eee;
+	border: 1px solid #d3d3d3;
+}
