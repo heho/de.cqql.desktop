@@ -9,7 +9,7 @@
 }
 
 .desktopManagerWindowTitleBar {
-	background: #fafafa url("images/titleBar.png") repeat-x top left;
+	background: #fafafa repeat-x top left;
 	padding: 5px 6px 3px 6px;
 	outline:0; 
 	min-width: 90px;
@@ -54,7 +54,6 @@
 	top: 4px;
 	height: 15px;
 	width: 15px;
-	background-image: url("images/spriteRoundedIconsSmall.gif");
 }
 
 .desktopManagerWindowMaximizeIcon {
@@ -66,7 +65,6 @@
 	top: 4px;
 	height: 15px;
 	width: 15px;
-	background-image: url("images/spriteRoundedIconsSmall.gif");
 }
 
 .desktopManagerWindowCloseIcon {
@@ -78,7 +76,6 @@
 	right: 6px;
 	height: 15px;
 	width: 15px;
-	background-image: url("images/spriteRoundedIconsSmall.gif");
 }
 
 .desktopManagerWindowMinimizeIcon:hover {
