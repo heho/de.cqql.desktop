@@ -3,9 +3,8 @@
 	background: #eee;
 	border: 1px solid #d3d3d3;
 	-webkit-box-shadow: 0 5px 10px #adadad;
-	padding: 0;
 	min-width: 100px;
-	position: fixed;
+	position: absolute;
 }
 
 .desktopManagerWindowTitleBar {
