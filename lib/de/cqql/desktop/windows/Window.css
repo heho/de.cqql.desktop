@@ -3,7 +3,10 @@
 	background: #eee;
 	border: 1px solid #d3d3d3;
 	-webkit-box-shadow: 0 5px 10px #adadad;
-	min-width: 100px;
+	-moz-box-shadow: 0 5px 10px #adadad;
+	box-shadow: 0 5px 10px #adadad;
+	min-width: 150px;
+	min-height: 100px;
 	position: absolute;
 }
 
