@@ -1,0 +1,40 @@
+{
+	"name": "de.cqql.desktop",
+	"version": "0.1.0alpha",
+	"description": "A desktop and window manager for your browser",
+	"keywords": ["desktop", "window"],
+	"directories": {
+		"lib": "./lib"
+	},
+	"maintainers": [
+		{
+			"name": "CQQL",
+			"email": "",
+			"web": "http://cqql.de"
+		}
+	],
+	"contributors": [
+		{
+			"name": "CQQL",
+			"email": "",
+			"web": "http://cqql.de"
+		}
+	],
+	"bugs": "https://github.com/CQQL/de.cqql.desktop/issues",
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/MIT"
+		}
+	],
+	"repositories": [
+		{
+			"type": "git",
+			"url": "git@github.com:CQQL/de.cqql.desktop.git"
+		}
+	],
+	"dependencies": {
+		"dojo": "1.7.0",
+		"dijit": "1.7.0"
+	}
+}

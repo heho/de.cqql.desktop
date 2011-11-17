@@ -1,0 +1,9 @@
+.desktopManagerWindowBar
+{
+	position: absolute;
+	bottom: 4px !important;
+	left: 142px;
+	right: 4px;
+	background: #eee;
+	border: 1px solid #d3d3d3;
+}

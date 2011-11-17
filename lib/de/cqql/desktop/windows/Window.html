@@ -1,0 +1,15 @@
+<div class="desktopManagerWindow" dojoAttachPoint="windowNode">
+	<div dojoAttachPoint="titleBar" class="desktopManagerWindowTitleBar">
+		<span dojoAttachPoint="titleNode" class="desktopManagerWindowTitle" id="${id}_title">${title}</span>
+		<span dojoAttachPoint="minimizeButtonNode" class="desktopManagerWindowMinimizeIcon" dojoAttachEvent="ondijitclick: minimize" title="buttonMinimize" role="button" tabIndex="-1">
+			<span dojoAttachPoint="minimizeText" class="minimizeText" title="buttonMinimize">_</span>
+		</span>
+		<span dojoAttachPoint="maximizeButtonNode" class="desktopManagerWindowMaximizeIcon" dojoAttachEvent="ondijitclick: maximize" title="buttonMaximize" role="button" tabIndex="-1">
+			<span dojoAttachPoint="maximizeText" class="maximizeText" title="buttonMaximize">[]</span>
+		</span>
+		<span dojoAttachPoint="closeButtonNode" class="desktopManagerWindowCloseIcon" dojoAttachEvent="ondijitclick: destroy" title="buttonClose" role="button" tabIndex="-1">
+			<span dojoAttachPoint="closeText" class="closeText" title="buttonClose">x</span>
+		</span>
+	</div>
+	<div dojoAttachPoint="contentNode" class="desktopManagerWindowTitleBar"></div>
+</div>

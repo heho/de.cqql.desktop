@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>de.cqql.desktop example</title>
+		<link rel="stylesheet" type="text/css" href="/lib/de/cqql/desktop/Desktop.css">
+		<script type="text/javascript" data-dojo-config="async: true" src="/deps/dojo/dojo/dojo.js"></script>
+		<script type="text/javascript">
+			require(['dojo/_base/kernel', 'dojo/_base/loader'], function (dojo) {
+				dojo.registerModulePath(
+					'de/cqql/desktop',
+					'/lib/de/cqql/desktop'
+				);
+				
+				dojo.registerModulePath(
+					'example',
+					'/examples/example'
+				);
+				
+				require(['main.js']);
+			});
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>

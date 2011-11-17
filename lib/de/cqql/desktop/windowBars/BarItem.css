@@ -1,0 +1,11 @@
+.desktopManagerBarItem
+{
+	border:1px solid #c3c3c3;
+	padding: 1px 2px 2px 3px;
+	margin-left: 1px;
+	background: #ffffff;
+	width: 100px;
+	font-size: 0.9em;
+	color: #243C5F;
+	text-align: left;
+}

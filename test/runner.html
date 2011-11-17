@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>de.cqql.desktop Jasmine runner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="/tools/jasmine/jasmine.css" rel="stylesheet" />
+		<script type="text/javascript" src="/tools/jasmine/jasmine.js"></script>
+		<script type="text/javascript" src="/tools/jasmine/jasmine-html.js"></script>
+		
+		<script type="text/javascript" src="de/cqql/desktop/Desktop.js"></script>
+		
+		<script type="text/javascript" src="/deps/requirejs/require.js"></script>
+		<script type="text/javascript">
+			require.config({
+				baseUrl: '/deps/requirejs',
+				packages: [
+					{
+						name: 'dojo',
+						location: '/deps/dojo',
+						main: 'lib/main-browser'
+					},
+					{
+						name: 'dijit',
+						location: '/deps/dijit',
+						main: 'lib/main'
+					},
+					{
+						name: 'de/cqql/desktop',
+						location: '/lib/de/cqql/desktop'
+					}
+				]
+			});
+			
+			require(['main.js']);
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

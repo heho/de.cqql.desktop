@@ -1,0 +1,94 @@
+.desktopManagerWindow
+{
+	background: #eee;
+	border: 1px solid #d3d3d3;
+	-webkit-box-shadow: 0 5px 10px #adadad;
+	-moz-box-shadow: 0 5px 10px #adadad;
+	box-shadow: 0 5px 10px #adadad;
+	min-width: 150px;
+	min-height: 100px;
+	position: absolute;
+}
+
+.desktopManagerWindowTitleBar {
+	background: #fafafa repeat-x top left;
+	padding: 5px 6px 3px 6px;
+	outline:0; 
+	min-width: 90px;
+}
+
+.closeText {
+	display:none;
+	position:absolute;
+}
+
+.minimizeText {
+	display:none;
+	position:absolute;
+}
+
+.maximizeText {
+	display:none;
+	position:absolute;
+}
+
+.desktopManagerWindowTitle {
+
+	font-size: 0.9em;
+	color: #243C5F;
+	font-weight: bold;
+	padding: 0 4px;
+}
+
+.desktopManagerWindowContent {
+	background: #ffffff;
+	border-top: 1px solid #d3d3d3;
+	padding:10px;
+
+}
+
+.desktopManagerWindowMinimizeIcon {
+	background-repeat: no-repeat;
+	background-position: -15px 0;
+	position: absolute;
+	vertical-align: middle;
+	right: 36px;
+	top: 4px;
+	height: 15px;
+	width: 15px;
+}
+
+.desktopManagerWindowMaximizeIcon {
+	background-repeat: no-repeat;
+	background-position: -45px 0;
+	position: absolute;
+	vertical-align: middle;
+	right: 21px;
+	top: 4px;
+	height: 15px;
+	width: 15px;
+}
+
+.desktopManagerWindowCloseIcon {
+	background-repeat: no-repeat;
+	background-position: -60px 0;
+	position: absolute;
+	vertical-align: middle;
+	top: 4px;
+	right: 6px;
+	height: 15px;
+	width: 15px;
+}
+
+.desktopManagerWindowMinimizeIcon:hover {
+	background-position: -15px -30px;
+}
+
+.desktopManagerWindowMaximizeIcon:hover {
+	background-position: -45px -30px;
+}
+
+.desktopManagerWindowCloseIcon:hover {
+	background-position: -60px -30px;
+}
+
